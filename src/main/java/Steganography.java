@@ -72,4 +72,11 @@ public class Steganography {
 
         return stegoImage;
     }
+    public static void someFeatureMethod(){
+        hideMessage(loadImage("somePath"),"new test text");
+    }
+
+    public static void someFeatureMethod2(){
+        hideMessage(loadImage("somePath2"),"new test text2");
+    }
 }
